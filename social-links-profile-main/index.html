@@ -38,14 +38,14 @@
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background-color: black; /* Added background color to body for illustration */
+  background-color:   hsl(0, 0%, 8%); 
 }
     .flex-container{
       display: flex;
-      background-color: rgb(44, 44, 44);
+      background-color: hsl(0, 0%, 12%);
       width:350px;
       flex-direction: column;
-      color:white;
+      color:hsl(0, 0%, 100%);
       text-align: center;
       align-items: center;
       justify-content: center;
@@ -61,28 +61,28 @@
 }
     .flex-container > div:not(#exclude-div){
 width:310px;
-background-color: rgb(77, 76, 76);
+background-color:hsl(0, 0%, 20%) ;
 padding:10px;
 margin: 10px;
 border-radius: 7px;
   font-family: Inter-bold;
   font-size: 15px;
     }
-    @media (max-width: 480px) {
+    @media (max-width: 375px) {
       .flex-container > div:not(#exclude-div){
 width:220px;
 font-size: 13px;}
     }
     .flex-container > div:not(#exclude-div):hover{
 width:310px;
-background-color:hsl(80, 100%, 70%);
+background-color: hsl(75, 94%, 57%);
 padding:10px;
 margin: 10px;
 border-radius: 7px;
   font-family: Inter-bold;
   color:black;
     }
-    @media (max-width:480px){
+    @media (max-width:375px){
       .flex-container > div:not(#exclude-div):hover{
         width:220px;
         font-size: 13px;
@@ -101,7 +101,7 @@ border-radius: 7px;
     p{
 font-family: nothing;
     }
-    @media (max-width:480px) {
+    @media (max-width:375px) {
       p{
       font-family: Inter-semi-bold;
       font-size:12px;
@@ -114,7 +114,7 @@ font-family: nothing;
   <div id="exclude-div">
     <img src="assets/images/avatar-jessica.jpeg" width="100px" height="100px">
  <p><h3>Jessica Randall</h3>
- <span style="color:hsl(80, 100%, 70%);font-size: 13px;">London, United Kingdom</span></p>
+ <span style="color:hsl(75, 94%, 57%);font-size: 13px;">London, United Kingdom</span></p>
  <p>"Front-end developer and avid reader."</p>
 </div>
 <div>
@@ -134,7 +134,7 @@ font-family: nothing;
 </div>
 <div class="attribution" id="exclude-div">
   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-  Coded by <a href="https://github.com/NavyaVeeram/frontend-mentor-project2">Navya Veeram</a>.
+  Coded by <a href="https://github.com/NavyaVeeram/frontend-mentor-project2" target="_blank">Navya Veeram</a>.
 </div>
 </div>
 
